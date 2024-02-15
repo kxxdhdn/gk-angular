@@ -1,0 +1,6 @@
+1) créer une classe animal avec les propriétés suivants (id, espece, poids, taille) 
+2) ajouter un constrecteur avec plusieurs paramètres 
+3) créer un tableau de 4 animaux 
+4) développer dans la classe animal une méthode display pour afficher toutes les infors d'un animal 
+5) créer une méthode  (à l'exterieur) pour afficher les infos de tous les animaux 
+6) bonus: afficher ces infos dans le composant app du projet angular
