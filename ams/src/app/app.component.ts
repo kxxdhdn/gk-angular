@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Animal, animaux, displayAllAnimals } from './animal';
 import { CommonModule } from '@angular/common';
+import { Animal, animaux, displayAllAnimals } from './animal';
+import { StagiairesComponent } from "./stagiaires/stagiaires.component";
+import { PostesComponent } from "./postes/postes.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule],
+  imports: [RouterOutlet, CommonModule, StagiairesComponent, PostesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
