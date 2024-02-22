@@ -5,13 +5,28 @@ https://learn.microsoft.com/fr-fr/powershell/module/microsoft.powershell.securit
 a) npm install -g tsc -f: installer globallement le compilateur angular
 b) npm install -g @angular/cli : installer globallement le cli d'angular
 
+npm install bootstrap bootstrap-icons
+
 2)Les commandes Angular
 
 ng new ams = créer un nouveau projet angular
 cd ams
 ng serve : lancer le projet angular sur le serveur intégré
-ng g c ListStagiaires : ng generate component listStagiaires : créer un nouveau composant
+ng g c listStagiaires = ng generate component listStagiaires : créer un nouveau composant
 
 ng g p nom_pipe = ng generate pipe mypipe
-ng g s nom_services
+
 ng g s services/nom_service
+
+ng generate environments
+
+ng build --aot : ahead of time
+
+ng config projects.<project-name>.architect.build.configurations
+
+
+
+
+ng new nom_app_modulaire --standalone false
+ng generate module nom_module --routing
+ng g c dashboard/admin --module=dashboard
