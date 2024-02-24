@@ -14,8 +14,8 @@ cd ams
 ng serve : lancer le projet angular sur le serveur intégré
 ng g c listStagiaires = ng generate component listStagiaires : créer un nouveau composant
 
-ng g p nom_pipe = ng generate pipe mypipe
-
+ng g p nom_pipe = ng generate pipe mypip
+e
 ng g s services/nom_service
 
 ng generate environments
