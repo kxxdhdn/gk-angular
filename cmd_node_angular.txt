@@ -14,6 +14,8 @@ cd ams
 ng serve : lancer le projet angular sur le serveur intégré
 ng g c listStagiaires = ng generate component listStagiaires : créer un nouveau composant
 
+npm install @angular/common/http
+
 ng g p nom_pipe = ng generate pipe mypip
 e
 ng g s services/nom_service
@@ -25,8 +27,6 @@ ng build --aot : ahead of time
 ng config projects.<project-name>.architect.build.configurations
 
 
-
-
 ng new nom_app_modulaire --standalone false
-ng generate module nom_module --routing
+ng g m nom_module --routing = ng generate module nom_module --routing
 ng g c dashboard/admin --module=dashboard
